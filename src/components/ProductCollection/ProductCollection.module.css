@@ -1,6 +1,7 @@
 .root {
     width: 100%;
-    min-height: 630px;
+    /* min-height: 630px; */
+    min-height: 330px;
 
     background-size: cover;
     background-repeat: no-repeat;
@@ -46,7 +47,8 @@
 
 .overlay {
     width: 100%;
-    min-height: 630px;
+    /* min-height: 630px; */
+    min-height: 330px;
     position: absolute;
     top: 0px;
     left: 0px;

@@ -64,7 +64,7 @@
   ],
   "headerLinks": [
     {
-      "menuLabel": "Shop",
+      "menuLabel": "Магазин",
       "menuLink": "/shop",
       "category": [
         {
@@ -129,12 +129,12 @@
       ]
     },
     {
-      "menuLabel": "journal",
+      "menuLabel": "Про нас",
       "menuLink": "/blog",
       "category": null
     },
     {
-      "menuLabel": "About",
+      "menuLabel": "Доставка та оплата",
       "menuLink": "/about",
       "category": null
     }

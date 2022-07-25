@@ -80,9 +80,9 @@ const Header = (prop) => {
 
   return (
     <div className={styles.root}>
-      <div className={styles.headerMessageContainer}>
+      {/* <div className={styles.headerMessageContainer}>
         <span>{bannerMessage}</span>
-      </div>
+      </div> */}
       <Container size={'large'} spacing={'min'}>
         {/* header container */}
         <div className={styles.header}>
@@ -119,7 +119,7 @@ const Header = (prop) => {
           </div>
           <Brand />
           <div className={styles.actionContainers}>
-            <button
+            {/* <button
               aria-label="Search"
               className={`${styles.iconButton} ${styles.iconContainer}`}
               onClick={() => {
@@ -127,7 +127,7 @@ const Header = (prop) => {
               }}
             >
               <Icon symbol={'search'}></Icon>
-            </button>
+            </button> */}
             <Link
               aria-label="Favorites"
               href="/account/favorites"
@@ -135,13 +135,13 @@ const Header = (prop) => {
             >
               <Icon symbol={'heart'}></Icon>
             </Link>
-            <Link
+            {/* <Link
               aria-label="Orders"
               href={isAuth() ? '/login' : '/account/orders/'}
               className={`${styles.iconContainer} ${styles.hideOnMobile}`}
             >
               <Icon symbol={'user'}></Icon>
-            </Link>
+            </Link> */}
             <button
               aria-label="Cart"
               className={`${styles.iconButton} ${styles.iconContainer} ${styles.bagIconContainer}`}

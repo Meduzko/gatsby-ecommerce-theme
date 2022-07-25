@@ -35,7 +35,7 @@ const Layout = ({ props, children, disablePaddingBottom = false }) => {
       >
         {children}
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
